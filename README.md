@@ -21,35 +21,51 @@ HTML страница. За да можете да създадете стран
 поддържате следните команди:
  
 аdd <tag_type> <<descr>> <content>  
+
 Добавя нов html таг с подадените съответни параметри. За различните типове тагове съдържанието (content) може да е с различна структура. 
 
 remove <descr> 
+
 Премахва от html страницата тага със съответното описание.
  
 print 
+
 Отпечатва на конзолата описанието и позицията на всички тагове в страницата. 
 
 moveTo <pos> <descr> 
+
 Преместване на съществуващ елемент преди дадена позиция 
 
 load filePath  
+
 Зарежда html файл. Ако файлът не съществува, се създава такъв 
 
 save filePath 
+
 Запазва заредената HTML страница 
 
 exit 
+
 Прекратява програмата, като запазва зареден файл, ако не е бил съхранен
 след последната промяна 
 
 Примерно изпълнение на програмата:
+
 >add heading <main heading> HTML PAGE CREATOR
+
 >add text  <before> The life before FMI:
+
 >add image <yolo> party.jpg
+
 >add text <after> The life after you enter FMI: 
+
 >add video <wanna break> https://www.youtube.com/embed/f4Mc-NYPHaQ
+
 >add image <despair> fork.jpg
+
 >add link <help> https://www.facebook.com/Д-р-Радева-890574957631210/
 wanna help?
+
 >save MyHomePage.html
+
 >exit
